@@ -1,1 +1,9 @@
 .ripamontiPageSPA{}
+
+.hidden{
+    display: hidden !important;
+}
+
+.visible{
+    display: block !important;
+}
