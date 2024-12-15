@@ -1,9 +1,150 @@
-.ripamontiPageSPA{}
+.ripamontiPageSPA {}
 
-.hidden{
-    display: hidden !important;
+.hidden {
+    display: none !important;
 }
 
-.visible{
+.visible {
     display: block !important;
+}
+
+.ripamonti-center-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*
+! tailwindcss v3.4.16 | MIT License | https://tailwindcss.com
+*/
+.ripamonti-bg-white {
+    background-color: #ffffff;
+}
+
+.ripamonti-shadow-md {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ripamonti-rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.ripamonti-p-8 {
+    padding: 2rem;
+}
+
+.ripamonti-max-w-xl {
+    max-width: 36rem;
+}
+
+.ripamonti-text-center {
+    text-align: center;
+}
+
+.ripamonti-text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.ripamonti-font-bold {
+    font-weight: 700;
+}
+
+.ripamonti-text-gray-800 {
+    color: #2d3748;
+}
+
+.ripamonti-mb-4 {
+    margin-bottom: 1rem;
+}
+
+.ripamonti-text-gray-600 {
+    color: #718096;
+}
+
+.ripamonti-mb-6 {
+    margin-bottom: 1.5rem;
+}
+
+.ripamonti-text-blue-500 {
+    color: #3b82f6;
+}
+
+.ripamonti-hover\:underline:hover {
+    text-decoration: underline;
+}
+
+.ripamonti-flex {
+    display: flex;
+}
+
+.ripamonti-justify-center {
+    justify-content: center;
+}
+
+.ripamonti-space-x-4> :not([hidden])~ :not([hidden]) {
+    margin-left: 1rem;
+}
+
+.ripamonti-py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.ripamonti-px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.ripamonti-rounded {
+    border-radius: 0.25rem;
+}
+
+.ripamonti-bg-blue-500 {
+    background-color: #3b82f6;
+}
+
+.ripamonti-text-white {
+    color: #ffffff;
+}
+
+.ripamonti-hover\:bg-blue-600:hover {
+    background-color: #2563eb;
+}
+
+.ripamonti-focus\:outline-none:focus {
+    outline: 0;
+}
+
+.ripamonti-focus\:ring-2:focus {
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+.ripamonti-focus\:ring-blue-400:focus {
+    box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.5);
+}
+
+.ripamonti-bg-gray-500 {
+    background-color: #6b7280;
+}
+
+.ripamonti-hover\:bg-gray-600:hover {
+    background-color: #4b5563;
+}
+
+.ripamonti-focus\:ring-gray-400:focus {
+    box-shadow: 0 0 0 2px rgba(156, 163, 175, 0.5);
+}
+
+.ripamonti-bg-red-500 {
+    background-color: #ef4444;
+}
+
+.ripamonti-hover\:bg-red-600:hover {
+    background-color: #dc2626;
+}
+
+.ripamonti-focus\:ring-red-400:focus {
+    box-shadow: 0 0 0 2px rgba(248, 113, 113, 0.5);
 }
